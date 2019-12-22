@@ -7,3 +7,9 @@ end
 puts "Now there are #{cookies_in_the_cookie_jar} left to eat."
 
 
+jewels_in_bag = 100
+ 
+3.times do 
+  puts "Hiding 10 stolen jewels."
+  jewels_in_bag = jewels_in_bag - 10
+end
