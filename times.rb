@@ -26,3 +26,10 @@ end
 # => 3 (return value)
  
 puts "We have #{jewels_in_bag} jewels still to hide!"
+
+def using_times(spell = "Wingardium Leviosa")
+  10.times do
+    puts "I will now use the #{spell} spell to kill you"
+end
+
+    
