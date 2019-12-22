@@ -4,4 +4,6 @@ amount_of_cookies_in_the_cookie_jar = cookies_in_the_cookie_jar - 2
   puts "There are #{amount_of_cookies_in_the_cookie_jar} left for us to eat"
 end
 
+puts "Now there are #{cookies_in_the_cookie_jar} left to eat."
+
 
